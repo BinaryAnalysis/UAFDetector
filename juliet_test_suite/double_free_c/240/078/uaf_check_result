@@ -1,0 +1,6 @@
+find uaf: 1
+1.**function: CWE415_Double_Free__malloc_free_char_08_bad 0x8048aa1--0x8048af9
+  freed pointer: [ebp-12]
+  free address: 0x8048ade
+  use-after-free address: 0x8048aec  
+

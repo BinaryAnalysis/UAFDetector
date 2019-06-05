@@ -1,0 +1,2 @@
+find uaf: 1
+{"free_point": {"operand": {"ptrOff": "20", "type": "mem", "ptrReg": "esp"}, "addr": "0x80484ad"}, "use_point": {"operand": {"ptrOff": "20", "type": "mem", "ptrReg": "esp"}, "addr": "0x80484e6"}}

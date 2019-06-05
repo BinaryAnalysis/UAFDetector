@@ -1,0 +1,6 @@
+find uaf: 1
+1.**function: _ZN41CWE416_Use_After_Free__operator_equals_013badEv 0x8048bdd--0x8048c3e
+  freed pointer: [ebp-12]
+  free address: 0x8048c04
+  use-after-free address: 0x8048c09  0x8048c14  
+

@@ -1,0 +1,11 @@
+find uaf: 2
+1.**function: _ZN42CWE415_Double_Free__malloc_free_wchar_t_743badEv 0x8048e5d--0x8048f4c
+  freed pointer: [ebp-60]
+  free address: 0x8048e8c
+  use-after-free address: 0x8048eaa  0x8048ec8  0x8048ee6  
+
+2.**function: _ZN42CWE415_Double_Free__malloc_free_wchar_t_74L7goodB2GEv 0x8049030--0x804911f
+  freed pointer: [ebp-60]
+  free address: 0x804905f
+  use-after-free address: 0x804907d  0x804909b  0x80490b9  
+

@@ -1,0 +1,2 @@
+chkpoints = {slot1 = {operand = {ptrOff = -60, type = "mem", ptrReg = "EBP"}, addr = target:0xe8c}, slot2 = {operand = {ptrOff = -60, type = "mem", ptrReg = "EBP"}, addr = target:0xeaa  0xec8  0xee6}}
+chkpoints = {slot1 = {operand = {ptrOff = -60, type = "mem", ptrReg = "EBP"}, addr = target:0x105f}, slot2 = {operand = {ptrOff = -60, type = "mem", ptrReg = "EBP"}, addr = target:0x107d  0x109b  0x10b9}}

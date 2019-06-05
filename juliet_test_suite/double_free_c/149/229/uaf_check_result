@@ -1,0 +1,6 @@
+find uaf: 1
+1.**function: main 0x8048a2d--0x8048aaf
+  freed pointer: [esp+28]
+  free address: 0x8048a97
+  use-after-free address: 0x8048a9c  
+

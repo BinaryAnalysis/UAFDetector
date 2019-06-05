@@ -1,0 +1,6 @@
+find uaf: 1
+1.**function: CWE416_Use_After_Free__malloc_free_int64_t_10_bad 0x8048a8d--0x8048b1d
+  freed pointer: [ebp-16]
+  free address: 0x8048af9
+  use-after-free address: 0x8048b07  
+

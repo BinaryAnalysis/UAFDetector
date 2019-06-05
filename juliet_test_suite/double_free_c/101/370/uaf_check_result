@@ -1,0 +1,11 @@
+find uaf: 2
+1.**function: goodB2G 0x8048b1e--0x8048b52
+  freed pointer: [ebp-12]
+  free address: 0x8048b40
+  use-after-free address: 0x8048b45  
+
+2.**function: CWE415_Double_Free__malloc_free_int_53_bad 0x8048ac1--0x8048af5
+  freed pointer: [ebp-12]
+  free address: 0x8048ae3
+  use-after-free address: 0x8048ae8  
+

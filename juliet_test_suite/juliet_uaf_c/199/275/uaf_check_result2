@@ -1,0 +1,15 @@
+chkpoints = {slot1 = {operand = {ptrOff = -20, type = "mem", ptrReg = "EBP"}, addr = target:0x765}, slot2 = {operand = {ptrOff = -20, type = "mem", ptrReg = "EBP"}, addr = target:0x770}}
+chkpoints = {slot1 = {operand = {ptrOff = -20, type = "mem", ptrReg = "EBP"}, addr = target:0x803}, slot2 = {operand = {ptrOff = -20, type = "mem", ptrReg = "EBP"}, addr = target:0x812}}
+chkpoints = {slot1 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0x87b}, slot2 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0x880}}
+chkpoints = {slot1 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0x8f7}, slot2 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0x905}}
+chkpoints = {slot1 = {operand = {ptrOff = -52, type = "mem", ptrReg = "EBP"}, addr = target:0xa7c}, slot2 = {operand = {ptrOff = -52, type = "mem", ptrReg = "EBP"}, addr = target:0xaaa}}
+chkpoints = {slot1 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0xb62}, slot2 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0xb67}}
+chkpoints = {slot1 = {operand = {ptrOff = -16, type = "mem", ptrReg = "EBP"}, addr = target:0xbb5}, slot2 = {operand = {ptrOff = -16, type = "mem", ptrReg = "EBP"}, addr = target:0xbc9}}
+chkpoints = {slot1 = {operand = {ptrOff = -36, type = "mem", ptrReg = "EBP"}, addr = target:0xcff}, slot2 = {operand = {ptrOff = -36, type = "mem", ptrReg = "EBP"}, addr = target:0xd04}}
+chkpoints = {slot1 = {operand = {ptrOff = -28, type = "mem", ptrReg = "EBP"}, addr = target:0xd80}, slot2 = {operand = {ptrOff = -28, type = "mem", ptrReg = "EBP"}, addr = target:0xd9d}}
+chkpoints = {slot1 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0xe0d}, slot2 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0xe5c}}
+chkpoints = {slot1 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0xe47}, slot2 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0xe5c}}
+chkpoints = {slot1 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0xe56}, slot2 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0xe5c}}
+chkpoints = {slot1 = {operand = {ptrOff = 0x804b06, type = "mem", ptrReg = "DS"}, addr = target:0xf16}, slot2 = {operand = {ptrOff = 0x804b06, type = "mem", ptrReg = "DS"}, addr = target:0xf65}}
+chkpoints = {slot1 = {operand = {ptrOff = 0x804b06, type = "mem", ptrReg = "DS"}, addr = target:0xf5d}, slot2 = {operand = {ptrOff = 0x804b06, type = "mem", ptrReg = "DS"}, addr = target:0xf65}}
+chkpoints = {slot1 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0x10fb}, slot2 = {operand = {ptrOff = -12, type = "mem", ptrReg = "EBP"}, addr = target:0x1100}}

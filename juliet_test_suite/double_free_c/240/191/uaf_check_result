@@ -1,0 +1,11 @@
+find uaf: 2
+1.**function: badSource 0x8048a8d--0x8048ac4
+  freed pointer: [ebp-12]
+  free address: 0x8048aba
+  use-after-free address: 0x8048abf  
+
+2.**function: goodB2GSource 0x8048b40--0x8048b77
+  freed pointer: [ebp-12]
+  free address: 0x8048b6d
+  use-after-free address: 0x8048b72  
+

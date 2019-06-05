@@ -1,0 +1,6 @@
+find uaf: 1
+1.**function: _ZN44CWE416_Use_After_Free__malloc_free_struct_623badEv 0x8048a1d--0x8048a42
+  freed pointer: [ebp-12]
+  free address: 0x8048a30
+  use-after-free address: 0x8048a35  
+

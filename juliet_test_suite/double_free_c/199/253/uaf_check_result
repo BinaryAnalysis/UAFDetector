@@ -1,0 +1,46 @@
+find uaf: 9
+1.**function: _Z15double_free_001v 0x8048b0d--0x8048b3a
+  freed pointer: [ebp-12]
+  free address: 0x8048b28
+  use-after-free address: 0x8048b2d  
+
+2.**function: _Z15double_free_002v 0x8048b3a--0x8048b8c
+  freed pointer: [ebp-12]
+  free address: 0x8048b70
+  use-after-free address: 0x8048b5c  0x8048b7f  
+
+3.**function: _Z15double_free_003v 0x8048b8c--0x8048bde
+  freed pointer: [ebp-12]
+  free address: 0x8048bc2
+  use-after-free address: 0x8048bae  0x8048bd1  
+
+4.**function: _Z15double_free_004v 0x8048bde--0x8048c65
+  freed pointer: [ebp-12]
+  free address: 0x8048c29
+  use-after-free address: 0x8048c58  
+
+5.**function: _Z15double_free_005v 0x8048c65--0x8048c98
+  freed pointer: [ebp-12]
+  free address: 0x8048c80
+  use-after-free address: 0x8048c85  0x8048c8b  
+
+6.**function: _Z15double_free_006v 0x8048c98--0x8048cc5
+  freed pointer: [ebp-12]
+  free address: 0x8048cb3
+  use-after-free address: 0x8048cb8  
+
+7.**function: _Z15double_free_007v 0x8048cc5--0x8048cff
+  freed pointer: [ebp-16]
+  free address: 0x8048ced
+  use-after-free address: 0x8048cf2  
+
+8.**function: _Z15double_free_009v 0x8048d3f--0x8048d7f
+  freed pointer: [ebp-12]
+  free address: 0x8048d63
+  use-after-free address: 0x8048d72  
+
+9.**function: _Z15double_free_010v 0x8048d7f--0x8048dbf
+  freed pointer: [ebp-12]
+  free address: 0x8048da3
+  use-after-free address: 0x8048db2  
+

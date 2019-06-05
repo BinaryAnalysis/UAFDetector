@@ -1,0 +1,76 @@
+find uaf: 15
+1.**function: invalid_memory_access_001 0x804870d--0x804877b
+  freed pointer: [ebp-20]
+  free address: 0x8048765
+  use-after-free address: 0x8048770  
+
+2.**function: invalid_memory_access_002 0x804877b--0x8048830
+  freed pointer: [ebp-20]
+  free address: 0x8048803
+  use-after-free address: 0x8048812  
+
+3.**function: invalid_memory_access_003 0x8048830--0x80488a2
+  freed pointer: [ebp-12]
+  free address: 0x804887b
+  use-after-free address: 0x8048880  
+
+4.**function: invalid_memory_access_004 0x80488a2--0x804891a
+  freed pointer: [ebp-12]
+  free address: 0x80488f7
+  use-after-free address: 0x8048905  
+
+5.**function: invalid_memory_access_006 0x8048991--0x8048ab3
+  freed pointer: [ebp-52]
+  free address: 0x8048a7c
+  use-after-free address: 0x8048aaa  
+
+6.**function: invalid_memory_access_007 0x8048ab3--0x8048b85
+  freed pointer: [ebp-12]
+  free address: 0x8048b62
+  use-after-free address: 0x8048b67  
+
+7.**function: invalid_memory_access_008 0x8048b85--0x8048bd6
+  freed pointer: [ebp-16]
+  free address: 0x8048bb5
+  use-after-free address: 0x8048bc9  
+
+8.**function: invalid_memory_access_010 0x8048c96--0x8048d11
+  freed pointer: [ebp-36]
+  free address: 0x8048cff
+  use-after-free address: 0x8048d04  
+
+9.**function: invalid_memory_access_011 0x8048d11--0x8048da9
+  freed pointer: [ebp-28]
+  free address: 0x8048d80
+  use-after-free address: 0x8048d9d  
+
+10.**function: invalid_memory_access_012_func_001 0x8048da9--0x8048e68
+  freed pointer: [ebp-12]
+  free address: 0x8048e0d
+  use-after-free address: 0x8048e5c  
+
+11.**function: invalid_memory_access_012_func_001 0x8048da9--0x8048e68
+  freed pointer: [ebp-12]
+  free address: 0x8048e47
+  use-after-free address: 0x8048e5c  
+
+12.**function: invalid_memory_access_012_func_001 0x8048da9--0x8048e68
+  freed pointer: [ebp-12]
+  free address: 0x8048e56
+  use-after-free address: 0x8048e5c  
+
+13.**function: invalid_memory_access_013_func_002 0x8048eb9--0x8048f6e
+  freed pointer: ds:0x804b060
+  free address: 0x8048f16
+  use-after-free address: 0x8048f65  
+
+14.**function: invalid_memory_access_013_func_002 0x8048eb9--0x8048f6e
+  freed pointer: ds:0x804b060
+  free address: 0x8048f5d
+  use-after-free address: 0x8048f65  
+
+15.**function: invalid_memory_access_015_func_001 0x8049077--0x804910c
+  freed pointer: [ebp-12]
+  free address: 0x80490fb
+  use-after-free address: 0x8049100  
+

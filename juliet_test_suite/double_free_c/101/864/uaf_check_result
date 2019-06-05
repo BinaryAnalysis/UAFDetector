@@ -1,0 +1,11 @@
+find uaf: 2
+1.**function: _ZN47CWE415_Double_Free__new_delete_array_wchar_t_823badEv 0x8048c77--0x8048ce5
+  freed pointer: [ebp-16]
+  free address: 0x8048ca0
+  use-after-free address: 0x8048cc5  
+
+2.**function: _ZN47CWE415_Double_Free__new_delete_array_wchar_t_82L7goodB2GEv 0x8048d42--0x8048db0
+  freed pointer: [ebp-16]
+  free address: 0x8048d6b
+  use-after-free address: 0x8048d90  
+

@@ -1,0 +1,16 @@
+find uaf: 3
+1.**function: _Z15double_free_002v 0x8048b2f--0x8048b81
+  freed pointer: [ebp-12]
+  free address: 0x8048b65
+  use-after-free address: 0x8048b51  0x8048b74  
+
+2.**function: _Z15double_free_007v 0x8048c4d--0x8048c87
+  freed pointer: [ebp-16]
+  free address: 0x8048c75
+  use-after-free address: 0x8048c7a  
+
+3.**function: _Z15double_free_009v 0x8048cba--0x8048cfa
+  freed pointer: [ebp-12]
+  free address: 0x8048cde
+  use-after-free address: 0x8048ced  
+

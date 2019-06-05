@@ -1,0 +1,6 @@
+find uaf: 1
+1.**function: _ZN41CWE416_Use_After_Free__new_delete_long_033badEv 0x8048aad--0x8048aec
+  freed pointer: [ebp-12]
+  free address: 0x8048ad8
+  use-after-free address: 0x8048add  
+
